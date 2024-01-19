@@ -8,7 +8,7 @@ import { ApolloProvider } from '@apollo/client';
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 
 const client = new ApolloClient({
-  uri: 'https://nosql-backend.onrender.com/graphql', // Remplacez l'URL par celle de votre backend GraphQL
+  uri: 'https://nosql-backend.onrender.com/graphql', //  l'URL de mon backend GraphQL
   cache: new InMemoryCache(),
 });
 
